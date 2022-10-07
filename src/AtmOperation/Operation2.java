@@ -9,31 +9,31 @@ public void deposit()
 {
 
 balance=balance+amount;
-System.out.println("----------------------------------------------");
+System.out.println("************************************************");
 System.out.println("Deposited :"+amount);
-System.out.println("----------------------------------------------"); 
+System.out.println("*************************************************");
 }
 public void withdrawl()
 {
 if(balance>=amt&&amt>0)
 {
 balance=balance-amt;
-System.out.println("-------------------------------------");
+System.out.println("****************************************");
 System.out.println("Withdrawn :"+amt);
-System.out.println("-----------------------------------------------------");
+System.out.println("**************************************");
 } 
 else
 { 
-System.out.println("---------------------------------------");
-System.out.println("Can't do Withdrawl Process OR INSUFFICIENT BALANCE");
-System.out.println("--------------------------------------");
+System.out.println("***************************************");
+System.out.println(" INSUFFICIENT BALANCE");
+System.out.println("***************************************");
 } 
 }
 public void CheckBalance()
 {
-System.out.println("----------------------------------------------");
+System.out.println("***********************************************");
 System.out.println("Balance :"+balance);
-System.out.println("----------------------------------------------");
+System.out.println("***********************************************");
 }
 public static void main(String[] args)
 {
@@ -83,7 +83,7 @@ break;
 case 'E':
 {
 System.out.println("---------------------------------");
-System.out.println("******THANK YOU FOR USING OUR SERVICES******");
+System.out.println("******THANK YOU!! ******");
 System.out.println("---------------------------------");
 break;
 }
